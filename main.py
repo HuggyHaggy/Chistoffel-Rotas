@@ -5,7 +5,7 @@ from typing import List
 
 app = FastAPI()
 
-PROXY_SECRET_REAL = "sua_senha_secreta_aqui"
+PROXY_SECRET_REAL = "ChistoffelKey@"
 
 class Coordenada(BaseModel):
     id: str
