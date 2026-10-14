@@ -82,8 +82,8 @@ def api_otimizar_rota(
     for i in range(len(pontos_recebidos) - 1):
         distancia_total += calcular_geodesica_christoffel(pontos_recebidos[i], pontos_recebidos[i+1])
     
-    return {
-        "status": "success",
-        "total_distance_km": distancia_total_km,
-        "algorithm_used": "Einstein-Christoffel Geodesic Solver V1"
-    }
+return {
+    "status": "success",
+    "total_distance_km": distancia_total_km,
+    "algorithm_used": "Einstein-Christoffel Geodesic Solver V1"
+}
